@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
+import {stylesSignin} from './styles'
 
 export function SignIn() {
   return (
-    <View style={styles.container}>
+    <View style={stylesSignin.container}>
       <Text>tela de entrada</Text>
       <StatusBar style="auto" />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {

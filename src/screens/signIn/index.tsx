@@ -10,4 +10,4 @@ export function SignIn() {
       <StatusBar style="auto" />
     </View>
   );
-};
+}; ,
